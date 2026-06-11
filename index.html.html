@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交通处罚通知公示</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+        }
+        .img-box {
+            width: 100%;
+        }
+        .img-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .notice-box {
+            border: 2px solid #333;
+            margin: 15px;
+            padding: 20px;
+        }
+        .notice-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        .notice-text {
+            font-size: 24px;
+            line-height: 1.8;
+        }
+        .time-info {
+            padding: 12px 15px;
+            color: #666;
+            font-size: 14px;
+            border-top: 1px solid #eee;
+        }
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            .notice-box {
+                padding: 15px;
+            }
+            .notice-title {
+                font-size: 24px;
+            }
+            .notice-text {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img-box">
+            <img src="traffic.jpg.jpg" alt="行车抓拍画面">
+        </div>
+        <div class="notice-box">
+            <div class="notice-title">处罚通知：</div>
+            <div class="notice-text">
+                违法行为：1. 驾驶电动自行车未按规定佩戴安全头盔；2. 电动自行车驶入机动车道，影响正常交通秩序；3. 闯红灯。
+                <br><br>
+                依据《中华人民共和国道路交通安全法》及本地非机动车管理相关规定，请当事人自本告知单开具之日起15日内，携带有效证件前往交警大队违法处理窗口接受处理，也可通过线上渠道办理。
+            </div>
+        </div>
+        <div class="time-info">抓拍时间：2026-06-11 09:01:43</div>
+    </div>
+</body>
+</html>
